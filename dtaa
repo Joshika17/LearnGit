@@ -1,0 +1,37 @@
+I build the backend systems behind JioTV+ — Jio's OTT streaming platform serving millions of viewers every day across set-top box, Android TV, mobile, and web.
+
+My work spans 12+ Go microservices: user, subscription, playback, metadata, recommendation, and configuration. I own features end-to-end — API design (OpenAPI-first), data modeling, security review, rollout, and the production incidents that follow.
+
+Things I've built and solved here:
+
+🔹 TVOD subscription & rental flows — payment-gateway integration with S2S callbacks and recurring payments, entitlement modeling, and playback gating with device limits and geo-restriction
+
+🔹 Latency wins on the hottest APIs — cut p95/p99 on playback and recommendations with batched fetches, bounded goroutine concurrency, and layered caching (in-memory → Redis → CDN)
+
+🔹 Database migrations at scale — MongoDB → Cassandra/ScyllaDB for high-traffic services, Bigtable → MongoDB for user-personalization APIs, schemas designed around the hot read path
+
+🔹 Live at scale — backend for high-availability live event and election streaming, including CDN traffic migration for live-channel playback during peak loads
+
+🔹 Data pipelines — RabbitMQ consumers and cron jobs powering OTT partner catalog sync, EPG refresh, popularity scoring, and Elasticsearch index sync
+
+🔹 AI-native engineering — building the team's agentic development workflow: Claude Code skills, sub-agents, lifecycle hooks, and MCP integrations with Azure DevOps
+
+Tech I work with daily: Go · Node.js · Cassandra/ScyllaDB · MongoDB · Redis · RabbitMQ · Kubernetes · Docker · GCP · Azure DevOps
+
+
+
+
+Backend engineer on JioTV+, Jio's OTT streaming platform serving millions of daily users across set-top box, Android TV, mobile, and web.
+
+I work on 12+ Go microservices covering user, subscription, playback, metadata, recommendation, and configuration domains — designing REST APIs OpenAPI-first, modeling data in Cassandra/ScyllaDB and MongoDB, and owning features from design through security review to production.
+
+Highlights of my work:
+
+• Built TVOD subscription and rental purchase flows — payment-gateway integration with server-to-server callbacks, recurring payments, entitlement modeling, and playback gating (device limits, geo-restriction)
+• Migrated high-traffic services from MongoDB to Cassandra/ScyllaDB, and user-personalization APIs from Bigtable to MongoDB
+• Reduced p95/p99 latency on playback and recommendation APIs through batched fetches, bounded concurrency, and layered caching (in-memory → Redis → CDN)
+• Backend for high-availability live event and election streaming, including CDN traffic migration for live-channel playback
+• Built RabbitMQ consumers and cron pipelines for OTT partner catalog sync, EPG refresh, and Elasticsearch index sync
+• Driving the team's adoption of AI-native development — Claude Code skills, sub-agents, lifecycle hooks, and MCP integrations with Azure DevOps
+
+Tech: Go · Node.js · Cassandra/ScyllaDB · MongoDB · Redis · RabbitMQ · Kubernetes · Docker · GCP · Azure DevOps
